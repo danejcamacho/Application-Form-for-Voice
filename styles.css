@@ -1,5 +1,16 @@
 body {
-    background-color:antiquewhite;
+    background-color: #89ABE3FF;
     max-width: 60%;
     margin: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+fieldset {
+    background-color:rgb(234, 115, 141);
+
+}
+
+label {
+    padding-top:2rem;
+    padding-bottom:2rem;
 }

@@ -66,6 +66,30 @@
 
   </fieldset>
 
+  <fieldset class="quantity">
+    <legend>How often would you like lessons? (This can be changed later on) </legend>
+  
+    <div>
+      <input checked type="radio" name="quantity" value="weekly"/>
+      <label id="once">Once a week</label>
+    </div>
+  
+    <div>
+      <input type="radio" name="quantity" value="bimonthly"/>
+      <label id="Alto">Once every 2 weeks</label>
+    </div>
+  
+    <div>
+      <input type="radio" name="quantity" value="monthly"/>
+      <label id="Tenor">Once every month</label>
+    </div>
+  
+    <div>
+      <input type="radio" name="quantity" value="once"/>
+      <label id="once">One-time lesson</label>
+  </div>
+  
+  </fieldset>
 
 
 <fieldset class="register">
@@ -126,9 +150,13 @@
 
 </fieldset>
 
-<label>If you have any comments, please put them here:
-  <textarea>
+<label>When are your preferred times?
+  <textarea required placeholder="Fridays 2:30-7, Saturdays at 12..." rows="5" cols="50">
   </textarea>
+</label>
+</br>
+<label>If you have any comments, please put them here:
+  <textarea rows="5" cols="50"></textarea>
 </label>
 
 <button type="submit"id="submit"> Submit </button>
